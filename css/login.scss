@@ -1,0 +1,110 @@
+$fontstyle:italic;
+$paddingtop_m:10px;
+$left_m: 0;
+$top_m: 71;
+$width_m: 100%; 
+$height_m: 100%;
+$overflow_m: auto; 
+$backgroundcolor_m1: rgb(0,0,0); 
+$backgroundcolor_m2: rgba(0,0,0,0.4);
+$cursor_log: pointer;
+$position_fg:relative;
+$padding_fg:0;
+$margin_fg:0;
+$backgroundcolor_f: #fefefe;
+$margin_f: auto;
+$padding_f: 20px;
+$border_f: 1px solid #888;
+$width_f: 350px;
+$borderradius_f:5px;
+$border_ff:none;
+$borderbottom_ff:1px solid black;
+$background_ff:transparent;
+$outline_ff:none;
+$height_ff:40px;
+$width_ff:100%;
+$color_ff:black;
+$fontsize_ff:16px;
+$opacity_ff:1;
+$margin_ff:0;
+$paddingleft_ff:50px;
+$fontstyle_ff: italic;
+$position_img:absolute;
+$bottom_img:5px;
+$left_img:5px;
+$width_img:30px;
+$height_img:30px;
+$backgroundcolor_btn: black;
+$borderradius_btn: 50px;
+$color_btn: white;
+$fontsize_btn: 18px;
+*{
+    font-style: $fontstyle;
+  }
+  .main {
+      
+      
+      padding-top: $paddingtop_m;
+      left:$left_m;
+      top:$top_m;
+      width: $width_m; 
+      height: $height_m;
+      overflow: $overflow_m; 
+      background-color:$backgroundcolor_m1; 
+      background-color:$background-color_m2;
+    }
+    #logout
+    {
+        cursor: $cursor_log;
+    }
+    
+    .form-group { 
+      position:$position_fg;
+      padding:$padding_fg;
+      margin:$margin_fg;
+  }
+    .form {
+      background-color: $backgroundcolor_f;
+      margin: $margin_f;
+      padding: $padding_f;
+      
+      border: $border_f;
+      
+      width: $width_f;
+      border-radius:$borderradius_f;
+    }
+  
+  .form-fields
+  {
+      border:$border_ff;
+      border-bottom:$borderbottom_ff;
+      background:$background_ff;
+      outline:$outline_ff;
+      height:$height_ff;
+      width:$width_ff;
+      color:$color_ff;
+      font-size:$fontsize_ff;
+      opacity:$opacity_ff;
+      margin:$margin_ff;
+      padding-left:$paddingleft_ff;
+      font-style: $fontstyle_ff;
+  }
+  .img {
+      position:$position_img;
+      bottom:$bottom_img;
+      left:$left_img;
+      width:$width_img;
+      height:$height_img;
+  }
+  .signup-btn
+  {
+      background-color: $backgroundcolor_btn;
+      border-radius: $borderradius_btn;
+      color: $color_btn;
+      font-size: $fontsize_btn;
+  }
+  
+    
+    
+  
+  
