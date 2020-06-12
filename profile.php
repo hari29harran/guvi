@@ -168,7 +168,7 @@
     
                 </div>
                 <!-- Date of Birth Input Field -->
-                <input type="text" name="dob" class="form-fields" value="<?php echo $row['dob']; ?>" onfocus="(this.type='date')" placeholder="Date of Birth" readonly/>
+                <input type="date" name="dob" class="form-fields" value="<?php echo $row['dob']; ?>"  placeholder="Date of Birth" readonly/>
             </div>
             <br/>
             <div class="form-group">
