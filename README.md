@@ -1,3 +1,3 @@
 # Sample Login System
 
-Link: https://guvi.herokuapp.com/
+Live Demo: https://guvi.herokuapp.com/
